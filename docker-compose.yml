@@ -6,5 +6,9 @@ services:
     build: .
     environment:
       NODE_ENV: production
+      SITE_TITLE: $SITE_TITLE
+      SHORT_TITLE: $SHORT_TITLE
+      BULMASWATCH: $BULMASWATCH
+      LISTS_PUBLIC: $LISTS_PUBLIC
     ports:
       - 3000:3000
